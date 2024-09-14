@@ -6,6 +6,6 @@
 ---
     1. Make sure your neovim is up to date by following these steps.
         1. Install dependencies:
-            'sudo apt-get install ninja-build gettext cmake unzip curl'
+            '''sudo apt-get install ninja-build gettext cmake unzip curl'''
         2. Clone neovim repo:
-            'git clone https://github.com/neovim/neovim.git'
+            '''git clone https://github.com/neovim/neovim.git'''
