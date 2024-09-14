@@ -8,6 +8,8 @@ Make sure your neovim is up to date by following these steps.
 --------
   1. Install dependencies:
 
+    sudo apt-get update
+    sudo apt-get upgrade
     sudo apt-get install ninja-build gettext cmake unzip curl
 
   2. cd to home and clone neovim repo to it:
