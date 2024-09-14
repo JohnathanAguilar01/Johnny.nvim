@@ -10,6 +10,33 @@ Make sure your neovim is up to date by following these steps.
 
     sudo apt-get install ninja-build gettext cmake unzip curl
 
-  2. Clone neovim repo:
+  2. cd to home and clone neovim repo to it:
 
+    cd
     git clone https://github.com/neovim/neovim.git
+
+  3. Checkout stable version:
+
+    git Checkout v0.x.x
+
+  4. Build and install:
+
+    make CMAKE_BUILD_TYPE=Release
+    sudo make install
+
+Install dependencies for neovim plugins.
+--------
+  1. install python enviorment:
+    
+    sudo apt-get install python3-venv
+
+Make a nvim dir and clone repo to it.
+--------
+  1. make nvim dir:
+
+    mkdir -p ~/.config/nvim
+
+  2. Clone repo to dir:
+    
+    git clone https://github.com/JohnathanAguilar01/Johnny.nvim.git ~/.config/nvim && nvim
+    
