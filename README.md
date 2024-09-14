@@ -42,8 +42,10 @@ Make a nvim dir and clone repo to it.
     
 How to uninstall all neovim configs.
 --------
-  - Console commands for linux:
+  1. Console commands for linux:
     
     rm -rf ~/.config/nvim
     rm -rf ~/.local/state/nvim
     rm -rf ~/.local/share/nvim
+
+
