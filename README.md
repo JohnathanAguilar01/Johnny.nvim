@@ -28,13 +28,13 @@ Make sure your neovim is up to date by following these steps.
 
 Install dependencies for neovim plugins.
 --------
-  1. install python enviorment:
+  1. Install python enviorment:
     
     sudo apt-get install python3-venv
 
 Make a nvim dir and clone repo to it.
 --------
-  1. make nvim dir:
+  1. Make nvim dir:
 
     mkdir -p ~/.config/nvim
 
