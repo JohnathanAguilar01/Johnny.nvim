@@ -5,7 +5,8 @@ return {
 		local lint = require("lint")
 
 		lint.linters_by_ft = {
-			c = { "clangtidy" },
+			--TODO: find out how to impliment clangtidy
+			-- c = { "clangtidy" },
 			javascript = { "eslint_d" },
 			typescript = { "eslint_d" },
 			javascriptreact = { "eslint_d" },
