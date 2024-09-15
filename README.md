@@ -19,7 +19,7 @@ Make sure your neovim is up to date by following these steps.
 
   3. Checkout stable version:
 
-    git Checkout v0.x.x
+    git checkout v0.x.x
 
   4. Build and install:
 
