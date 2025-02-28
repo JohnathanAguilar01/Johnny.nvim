@@ -29,13 +29,13 @@ return {
 			ensure_installed = {
 				"html",
 				"cssls",
-				-- "tailwindcss",
-				-- "svelte",
+				"tailwindcss",
 				"lua_ls",
-				-- "graphql",
-				-- "emmet_ls",
-				-- "prismals",
+				"emmet_ls",
 				"pyright",
+				"ts_ls",
+				"dockerls",
+				"docker_compose_language_service",
 			},
 		})
 
@@ -44,11 +44,10 @@ return {
 				"clang-format", -- c formatter
 				"prettier", -- prettier formatter
 				"stylua", -- lua formatter
-				-- "eslint_d",
-				-- "isort",
-				-- "black",
-				-- "pylint",
-				-- "eslint_d",
+				"eslint_d",
+				"isort",
+				"black",
+				"pylint",
 			},
 		})
 	end,
