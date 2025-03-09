@@ -36,7 +36,9 @@ return {
 				"ts_ls",
 				"dockerls",
 				"docker_compose_language_service",
+				"jdtls",
 			},
+			automatic_installation = true,
 		})
 
 		mason_tool_installer.setup({

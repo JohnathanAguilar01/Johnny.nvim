@@ -134,6 +134,22 @@ return {
 					},
 				})
 			end,
+			["jdtls"] = function()
+				lspconfig["jdtls"].setup({
+					capabilities = capabilities,
+					filetypes = { "java" },
+					root_dir = lspconfig.util.root_pattern("pom.xml", "gradle.build", ".git"),
+					settings = {
+						java = {
+							signatureHelp = { enabled = true },
+							contentProvider = { preferred = "fernflower" },
+						},
+					},
+					init_options = {
+						bundles = {},
+					},
+				})
+			end,
 		})
 	end,
 }
