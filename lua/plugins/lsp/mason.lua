@@ -50,6 +50,8 @@ return {
 				"isort",
 				"black",
 				"pylint",
+				"checkstyle",
+				"google-java-format",
 			},
 		})
 	end,

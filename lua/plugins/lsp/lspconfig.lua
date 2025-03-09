@@ -78,6 +78,11 @@ return {
 			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
 		end
 
+		-- Find the root dir for java projects
+		local function find_java_root(fname)
+			return lspconfig.util.root_pattern("pom.xml", "build.gradle", ".git")(fname) or vim.fn.getcwd()
+		end
+
 		mason_lspconfig.setup_handlers({
 			-- default handler for installed servers
 			function(server_name)
@@ -138,7 +143,7 @@ return {
 				lspconfig["jdtls"].setup({
 					capabilities = capabilities,
 					filetypes = { "java" },
-					root_dir = lspconfig.util.root_pattern("pom.xml", "gradle.build", ".git"),
+					root_dir = find_java_root,
 					settings = {
 						java = {
 							signatureHelp = { enabled = true },
