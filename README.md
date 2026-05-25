@@ -30,8 +30,8 @@ Install dependencies for neovim plugins.
 --------
   1. Install python enviorment:
     
-    sudo apt-get install python3-venv
-
+    sudo apt install -y python3-venv nodejs npm
+    
 Make a nvim dir and clone repo to it.
 --------
   1. Make nvim dir:
